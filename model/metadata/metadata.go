@@ -13,7 +13,7 @@
 
 package metadata
 
-import "github.com/prometheus/common/model"
+import model "github.com/SieDeta/promql-parser-clean/common-model"
 
 // Metadata stores a series' metadata information.
 type Metadata struct {

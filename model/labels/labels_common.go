@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/prometheus/common/model"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 )
 
 const (

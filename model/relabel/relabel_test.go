@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/SieDeta/promql-parser-clean/labels"
+	"github.com/SieDeta/promql-parser-clean/util/testutil"
 )
 
 func TestRelabel(t *testing.T) {

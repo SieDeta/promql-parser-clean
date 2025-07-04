@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prometheus/common/model"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/promql/parser/posrange"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/SieDeta/promql-parser-clean/model/histogram"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
+	"github.com/SieDeta/promql-parser-clean/posrange"
+	"github.com/SieDeta/promql-parser-clean/testutil"
 )
 
 var testExpr = []struct {

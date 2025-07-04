@@ -16,7 +16,7 @@ package parser
 import (
 	"testing"
 
-	"github.com/prometheus/prometheus/promql/parser/posrange"
+	"github.com/SieDeta/promql-parser-clean/posrange"
 	"github.com/stretchr/testify/require"
 )
 

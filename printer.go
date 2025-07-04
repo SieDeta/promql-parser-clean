@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/prometheus/common/model"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 
-	"github.com/prometheus/prometheus/model/labels"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
 )
 
 // Tree returns a string of the tree structure of the given node.

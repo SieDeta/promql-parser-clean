@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/prometheus/common/model"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/timestamp"
-	"github.com/prometheus/prometheus/promql/parser/posrange"
-	"github.com/prometheus/prometheus/util/strutil"
+	"github.com/SieDeta/promql-parser-clean/labels"
+	"github.com/SieDeta/promql-parser-clean/model/histogram"
+	"github.com/SieDeta/promql-parser-clean/posrange"
+	"github.com/SieDeta/promql-parser-clean/strutil"
+	"github.com/SieDeta/promql-parser-clean/timestamp"
 )
 
 var parserPool = sync.Pool{

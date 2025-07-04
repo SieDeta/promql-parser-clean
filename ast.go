@@ -18,10 +18,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/promql/parser/posrange"
-	// "github.com/prometheus/prometheus/model/labels"
-	// "github.com/prometheus/prometheus/promql/parser/posrange"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
+	"github.com/SieDeta/promql-parser-clean/posrange"
 	// "github.com/prometheus/prometheus/storage"
 )
 

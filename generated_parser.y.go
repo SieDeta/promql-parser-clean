@@ -7,16 +7,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/promql/parser/posrange"
+	"github.com/SieDeta/promql-parser-clean/model/histogram"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
+	"github.com/SieDeta/promql-parser-clean/model/value"
+	"github.com/SieDeta/promql-parser-clean/posrange"
+
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 )
-
-// "github.com/prometheus/prometheus/model/histogram"
-// "github.com/prometheus/prometheus/model/labels"
-// "github.com/prometheus/prometheus/model/value"
-// "github.com/prometheus/prometheus/promql/parser/posrange"
-
-// "github.com/prometheus/common/model"
 
 type yySymType struct {
 	yys         int

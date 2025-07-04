@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/prometheus/common/model"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 )
