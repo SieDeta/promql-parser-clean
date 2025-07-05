@@ -18,7 +18,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/prometheus/common/model"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 	"github.com/stretchr/testify/require"
 
 	"github.com/SieDeta/promql-parser-clean/model/exemplar"

@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"testing"
 
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 	"github.com/gogo/protobuf/proto"
-	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
 	dto "github.com/SieDeta/promql-parser-clean/client"

@@ -24,10 +24,11 @@ import (
 
 	"github.com/SieDeta/promql-parser-clean/model/exemplar"
 	"github.com/SieDeta/promql-parser-clean/model/histogram"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
 	"github.com/SieDeta/promql-parser-clean/testutil"
-	"github.com/prometheus/common/model"
+
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/model/labels"
 )
 
 func TestNewParser(t *testing.T) {
