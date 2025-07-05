@@ -26,13 +26,13 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/prometheus/common/model"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
+	"github.com/SieDeta/promql-parser-clean/schema"
 
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/model/value"
-	"github.com/prometheus/prometheus/schema"
+	"github.com/SieDeta/promql-parser-clean/model/exemplar"
+	"github.com/SieDeta/promql-parser-clean/model/histogram"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
+	"github.com/SieDeta/promql-parser-clean/model/value"
 )
 
 type promlexer struct {

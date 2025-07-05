@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/prometheus/common/model"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 	"gopkg.in/yaml.v3"
 
-	"github.com/prometheus/prometheus/model/timestamp"
+	"github.com/SieDeta/promql-parser-clean/model/timestamp"
 	"github.com/prometheus/prometheus/promql"
 	"github.com/prometheus/prometheus/promql/parser"
 	"github.com/prometheus/prometheus/template"

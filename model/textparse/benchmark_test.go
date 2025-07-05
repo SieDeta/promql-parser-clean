@@ -27,8 +27,8 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/labels"
+	"github.com/SieDeta/promql-parser-clean/model/exemplar"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
 )
 
 // BenchmarkParse... set of benchmarks analyze efficiency of parsing various

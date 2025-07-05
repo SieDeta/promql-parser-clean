@@ -18,12 +18,12 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/SieDeta/promql-parser-clean/labels"
-	"github.com/SieDeta/promql-parser-clean/util/testutil"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
+	"github.com/SieDeta/promql-parser-clean/testutil"
 )
 
 func TestRelabel(t *testing.T) {

@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"mime"
 
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 	"github.com/SieDeta/promql-parser-clean/model/exemplar"
 	"github.com/SieDeta/promql-parser-clean/model/histogram"
 	"github.com/SieDeta/promql-parser-clean/model/labels"
-	"github.com/prometheus/common/model"
 )
 
 // Parser parses samples from a byte slice of samples in different exposition formats.

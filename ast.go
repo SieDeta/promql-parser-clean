@@ -217,10 +217,6 @@ type VectorSelector struct {
 	StartOrEnd           ItemType // Set when @ is used with start() or end()
 	LabelMatchers        []*labels.Matcher
 
-	// The unexpanded seriesSet populated at query preparation time.
-	UnexpandedSeriesSet storage.SeriesSet
-	Series              []storage.Series
-
 	// BypassEmptyMatcherCheck is true when the VectorSelector isn't required to have at least one matcher matching the empty string.
 	// This is the case when VectorSelector is used to represent the info function's second argument.
 	BypassEmptyMatcherCheck bool

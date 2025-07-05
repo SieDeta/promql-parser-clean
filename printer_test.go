@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/labels"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
 )
 
 func TestExprString(t *testing.T) {

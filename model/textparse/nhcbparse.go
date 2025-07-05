@@ -20,12 +20,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/prometheus/common/model"
-
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/util/convertnhcb"
+	model "github.com/SieDeta/promql-parser-clean/common-model"
+	"github.com/SieDeta/promql-parser-clean/convertnhcb"
+	"github.com/SieDeta/promql-parser-clean/model/exemplar"
+	"github.com/SieDeta/promql-parser-clean/model/histogram"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
 )
 
 type collectionState int

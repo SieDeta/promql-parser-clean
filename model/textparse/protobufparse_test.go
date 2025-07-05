@@ -22,10 +22,10 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/model/exemplar"
-	"github.com/prometheus/prometheus/model/histogram"
-	"github.com/prometheus/prometheus/model/labels"
-	dto "github.com/prometheus/prometheus/prompb/io/prometheus/client"
+	dto "github.com/SieDeta/promql-parser-clean/client"
+	"github.com/SieDeta/promql-parser-clean/model/exemplar"
+	"github.com/SieDeta/promql-parser-clean/model/histogram"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
 )
 
 func createTestProtoBuf(t testing.TB) *bytes.Buffer {

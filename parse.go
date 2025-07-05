@@ -26,11 +26,11 @@ import (
 
 	model "github.com/SieDeta/promql-parser-clean/common-model"
 
-	"github.com/SieDeta/promql-parser-clean/labels"
 	"github.com/SieDeta/promql-parser-clean/model/histogram"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
+	"github.com/SieDeta/promql-parser-clean/model/timestamp"
 	"github.com/SieDeta/promql-parser-clean/posrange"
 	"github.com/SieDeta/promql-parser-clean/strutil"
-	"github.com/SieDeta/promql-parser-clean/timestamp"
 )
 
 var parserPool = sync.Pool{

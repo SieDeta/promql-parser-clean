@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
+	model "github.com/SieDeta/promql-parser-clean/common-model"
 	"github.com/grafana/regexp"
-	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/model/labels"
+	"github.com/SieDeta/promql-parser-clean/model/labels"
 )
 
 var (

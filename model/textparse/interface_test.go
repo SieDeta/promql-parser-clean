@@ -20,14 +20,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SieDeta/promql-parser-clean//model/exemplar"
-	"github.com/SieDeta/promql-parser-clean/histogram"
+	"github.com/SieDeta/promql-parser-clean/model/exemplar"
+	"github.com/SieDeta/promql-parser-clean/model/histogram"
+	"github.com/SieDeta/promql-parser-clean/testutil"
+	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/config"
 	"github.com/prometheus/prometheus/model/labels"
-	"github.com/prometheus/prometheus/util/testutil"
 )
 
 func TestNewParser(t *testing.T) {
