@@ -1,6 +1,6 @@
 module github.com/SieDeta/promql-parser-clean
 
-go 1.24.4
+go 1.24.5
 
 require (
 	github.com/cespare/xxhash/v2 v2.3.0

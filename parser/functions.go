@@ -400,6 +400,11 @@ var Functions = map[string]*Function{
 		ArgTypes:   []ValueType{ValueTypeMatrix},
 		ReturnType: ValueTypeVector,
 	},
+	"sum2_over_time": {
+		Name:       "sum2_over_time",
+		ArgTypes:   []ValueType{ValueTypeMatrix},
+		ReturnType: ValueTypeVector,
+	},
 	"tan": {
 		Name:       "tan",
 		ArgTypes:   []ValueType{ValueTypeVector},
